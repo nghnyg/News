@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/haber"
+            android:id="@+id/imageHaber"/>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="160dp"
+            android:id="@+id/progressBar"
+            android:layout_weight="0.02" />
+
+        <TextView
+            android:text="Yükleniyor..."
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView2"
+            android:textSize="20dp"
+            />
+
+</LinearLayout>

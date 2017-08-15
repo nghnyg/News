@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="title_activity_main">Menü</string>
+    <string name="opened">Menü Açık</string>
+    <string name="closed">Menü Kapalı</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="menu_item">
+        <item>Anasayfa</item>
+
+    </string-array>
+
+    <item name="action_settings" type="id" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
